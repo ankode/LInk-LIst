@@ -94,7 +94,7 @@ int main()
         a=insert(a,d);
     }
     printf("\nEnter size for second list");
-    //2
+    scanf("%d",&l2);
     printf("\nEnter elements for second list");
     for(i=0;i<l2;i++)
     {
