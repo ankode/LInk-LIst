@@ -27,7 +27,7 @@ NODE insert(NODE f,int d)
     }
     p->next=temp;
     temp->next=f;
-   30
+   return f;
 }
 NODE unio(NODE a,NODE b)
 {
